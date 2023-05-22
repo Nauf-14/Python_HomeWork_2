@@ -12,8 +12,7 @@ min_number_of_turns = 0
 for i in range(n):
     x = int(input("Введите цифру ,соответствующию стороне монеты: "))
     if x == 1:
-        count1 += 1
-        
+        count1 += 1       
     elif x == 0:
         count2 += 1
 
